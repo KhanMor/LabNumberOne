@@ -1,9 +1,8 @@
 package parser;
 
-import com.kharkhanov.Main;
-
 /**
  * Created by Mordr on 10.02.2017.
+ * Потоки
  */
 public class ParserRunnable implements Runnable{
     private final String resource;
