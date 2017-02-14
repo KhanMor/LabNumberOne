@@ -1,9 +1,9 @@
 package test;
 
-import com.kharkhanov.Main;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import parser.WordValidator;
+import wordsjob.UniqueWordsWrapper;
+import wordsjob.WordValidator;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
@@ -18,25 +18,25 @@ class WordValidatorTest {
 
     @BeforeEach
     void setUp() {
-        WordValidator wordValidator = new WordValidator();
+        UniqueWordsWrapper uniqueWordsWrapper = new UniqueWordsWrapper();
+        WordValidator wordValidator = new WordValidator(uniqueWordsWrapper);
         assertNotNull(wordValidator);
         this.wordValidator = wordValidator;
     }
 
     @Test
-    void isValidWord() {
-        assertTrue(wordValidator.isValidWord("правильное.слово", "ResourceName"));
-
-        wordValidator.addValidWord("правильное.слово", "ResourceName");
-        wordValidator.addValidWord("правильное.слово", "ResourceName");
-
-        assertFalse(wordValidator.isValidWord("wrong.word", "ResourceName"));
+    void addValidWord() {
+        assertTrue(wordValidator.addValidWord("правильное.слово", "ValidResourceName"));
     }
 
     @Test
-    void addValidWord() {
-        wordValidator.addValidWord("уникальное.слово", "ResourceName");
-        assertTrue(Main.uniqueWords.contains("уникальное.слово"));
+    void addDuplicateWord() {
+        wordValidator.addValidWord("дубль", "DuplicateResourceName");
+        assertFalse(wordValidator.addValidWord("дубль", "ResourceName"));
     }
 
+    @Test
+    void addForeignWord() {
+        assertFalse(wordValidator.addValidWord("foreign.word", "ForeignResourceName"));
+    }
 }

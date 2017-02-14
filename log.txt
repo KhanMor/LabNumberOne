@@ -1,0 +1,13 @@
+TRACE   2017-02-14 21:24:40,982 [main] com.kharkhanov.Main  - Program started...
+TRACE   2017-02-14 21:24:41,101 [Thread-0] parser.ParserRunnable  - Thread started for Files\1.txt
+TRACE   2017-02-14 21:24:41,102 [Thread-2] parser.ParserRunnable  - Thread started for Files\3.txt
+TRACE   2017-02-14 21:24:41,101 [Thread-1] parser.ParserRunnable  - Thread started for Files\2.txt
+TRACE   2017-02-14 21:24:41,110 [Thread-2] wordsjob.UniqueWordsWrapper  - found word Гарантия in Files\3.txt
+TRACE   2017-02-14 21:24:41,111 [Thread-2] wordsjob.UniqueWordsWrapper  - found word результата in Files\3.txt
+ERROR   2017-02-14 21:24:41,111 [Thread-0] wordsjob.WordValidator  - Not unique word Гарантия found in Files\1.txt
+TRACE   2017-02-14 21:24:41,187 [Thread-0] parser.ParserRunnable  - End of thread for Files\1.txt
+TRACE   2017-02-14 21:24:41,187 [Thread-1] wordsjob.UniqueWordsWrapper  - found word Большой in Files\2.txt
+TRACE   2017-02-14 21:24:41,187 [Thread-1] parser.ParserRunnable  - End of thread for Files\2.txt
+TRACE   2017-02-14 21:24:41,187 [Thread-2] wordsjob.UniqueWordsWrapper  - found word Оптимизация in Files\3.txt
+TRACE   2017-02-14 21:24:41,188 [Thread-2] parser.ParserRunnable  - End of thread for Files\3.txt
+TRACE   2017-02-14 21:24:41,189 [main] com.kharkhanov.Main  - Program done.

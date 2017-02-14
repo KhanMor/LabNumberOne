@@ -1,17 +1,25 @@
 package parser;
 
 import com.kharkhanov.Main;
+import org.apache.log4j.Logger;
+import org.apache.log4j.xml.DOMConfigurator;
+import wordsjob.WordValidator;
 
 import java.io.*;
 
 /**
  * Created by Mordr on 10.02.2017.
- * Парсер
+ * Парсер текста
  */
 public class Parser {
+    private final WordValidator wordValidator;
+    private static final Logger logger = Logger.getLogger(Main.class);
+    static  {
+        DOMConfigurator.configure("src/resources/log4j.xml");
+    }
 
-    public Parser() {
-
+    public Parser(WordValidator wordValidator) {
+        this.wordValidator = wordValidator;
     }
 
     /**
@@ -21,7 +29,7 @@ public class Parser {
      * @param resource путь к текстовому файлу с текстом,
      *                 если файла нет то работа программы прекращается
      **/
-    public void parseResource(String resource) {
+    void parseResource(String resource) {
         if(resource != null) {
             try (
                     InputStream inputStream = new FileInputStream(new File(resource));
@@ -29,14 +37,11 @@ public class Parser {
                     BufferedReader bufferedReader = new BufferedReader(inputStreamReader)
             ) {
                 String line;
-                WordValidator wordValidator = new WordValidator();
                 while (!Main.stop && (line = bufferedReader.readLine()) != null) {
                     String[] words = line.split("\\s+");
                     for (String word : words) {
-                        boolean wordIsValid = wordValidator.isValidWord(word, resource);
-                        if (wordIsValid && !Main.stop) {
-                            wordValidator.addValidWord(word, resource);
-                        } else {
+                        boolean validWordAdded = wordValidator.addValidWord(word, resource);
+                        if (!validWordAdded || Main.stop) {
                             Main.stop = true;
                             break;
                         }
@@ -44,7 +49,7 @@ public class Parser {
                 }
             } catch (IOException e) {
                 Main.stop = true;
-                e.printStackTrace();
+                logger.error("Exception occurred " + e.getMessage());
             }
         }
     }

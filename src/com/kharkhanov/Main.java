@@ -1,21 +1,30 @@
 package com.kharkhanov;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.xml.DOMConfigurator;
+import parser.Parser;
 import parser.ParserRunnable;
+import wordsjob.UniqueWordsWrapper;
+import wordsjob.WordValidator;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class Main {
     public static volatile boolean stop = false;
-    public static volatile Set<String> uniqueWords = new HashSet<>();
+    private static final Logger logger = Logger.getLogger(Main.class);
+    static  {
+        DOMConfigurator.configure("src/resources/log4j.xml");
+    }
 
     public static void main(String[] args) {
-        System.out.println("Program started...");
+        logger.trace("Program started...");
         List<Thread> threads = new ArrayList<>();
+        UniqueWordsWrapper uniqueWords = new UniqueWordsWrapper();
+        WordValidator wordValidator = new WordValidator(uniqueWords);
+        Parser parser = new Parser(wordValidator);
+
         for (String resource:args) {
-            Thread thread = new Thread(new ParserRunnable(resource));
+            Thread thread = new Thread(new ParserRunnable(resource, parser));
             thread.start();
             threads.add(thread);
         }
@@ -28,6 +37,6 @@ public class Main {
             }
         }
 
-        System.out.println("Program done.");
+        logger.trace("Program done.");
     }
 }
