@@ -6,6 +6,8 @@ import org.apache.log4j.xml.DOMConfigurator;
 import wordsjob.WordValidator;
 
 import java.io.*;
+import java.net.MalformedURLException;
+import java.net.URL;
 
 /**
  * Created by Mordr on 10.02.2017.
@@ -29,10 +31,21 @@ public class Parser {
      * @param resource путь к текстовому файлу с текстом,
      *                 если файла нет то работа программы прекращается
      **/
+    private InputStream getInputStream(String resource) throws IOException {
+        InputStream inputStream;
+        if(resource.toLowerCase().indexOf("http://") != -1
+                || resource.toLowerCase().indexOf("https://") !=-1) {
+            inputStream = new URL(resource).openStream();
+        } else {
+            inputStream = new FileInputStream(new File(resource));
+        }
+        return inputStream;
+    }
+
     void parseResource(String resource) {
         if(resource != null) {
             try (
-                    InputStream inputStream = new FileInputStream(new File(resource));
+                    InputStream inputStream = getInputStream(resource);
                     InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
                     BufferedReader bufferedReader = new BufferedReader(inputStreamReader)
             ) {

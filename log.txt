@@ -11,3 +11,14 @@ TRACE   2017-02-14 21:24:41,187 [Thread-1] parser.ParserRunnable  - End of threa
 TRACE   2017-02-14 21:24:41,187 [Thread-2] wordsjob.UniqueWordsWrapper  - found word Оптимизация in Files\3.txt
 TRACE   2017-02-14 21:24:41,188 [Thread-2] parser.ParserRunnable  - End of thread for Files\3.txt
 TRACE   2017-02-14 21:24:41,189 [main] com.kharkhanov.Main  - Program done.
+TRACE   2017-02-15 00:32:11,452 [main] com.kharkhanov.Main  - Program started...
+TRACE   2017-02-15 00:32:11,633 [Thread-0] parser.ParserRunnable  - Thread started for http://joomla.ru/robots.txt
+ERROR   2017-02-15 00:32:11,635 [Thread-0] com.kharkhanov.Main  - Exception occurred http:\joomla.ru\robots.txt (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+TRACE   2017-02-15 00:32:11,636 [Thread-0] parser.ParserRunnable  - End of thread for http://joomla.ru/robots.txt
+TRACE   2017-02-15 00:32:11,636 [main] com.kharkhanov.Main  - Program done.
+TRACE   2017-02-15 00:39:02,450 [main] com.kharkhanov.Main  - Program started...
+TRACE   2017-02-15 00:39:02,627 [Thread-0] parser.ParserRunnable  - Thread started for http://joomla.ru/robots.txt
+TRACE   2017-02-15 00:39:03,248 [Thread-0] wordsjob.UniqueWordsWrapper  - found word # in http://joomla.ru/robots.txt
+ERROR   2017-02-15 00:39:03,249 [Thread-0] wordsjob.WordValidator  - Foreign word If found in http://joomla.ru/robots.txt
+TRACE   2017-02-15 00:39:03,249 [Thread-0] parser.ParserRunnable  - End of thread for http://joomla.ru/robots.txt
+TRACE   2017-02-15 00:39:03,249 [main] com.kharkhanov.Main  - Program done.
