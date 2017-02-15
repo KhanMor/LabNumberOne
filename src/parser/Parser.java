@@ -6,7 +6,6 @@ import org.apache.log4j.xml.DOMConfigurator;
 import wordsjob.WordValidator;
 
 import java.io.*;
-import java.net.MalformedURLException;
 import java.net.URL;
 
 /**
@@ -25,16 +24,16 @@ public class Parser {
     }
 
     /**
-     * Считывает тектовый файл по-строчно, разбивает строку на слова,
-     * затем проверяет полученные слова, если слово удовлетворяет всем условиям
-     * добавляет его в коллекцию уникальных слов
-     * @param resource путь к текстовому файлу с текстом,
-     *                 если файла нет то работа программы прекращается
-     **/
+     * Возвращает поток ввода для ресурса в зависимости от того на что он ссылается
+     * (URL или файл)
+     * @param resource путь к ресурсу
+     * @return возвращает поток ввода
+     * @throws IOException ошибка ввода вывода если ресурс не неайден
+     */
     private InputStream getInputStream(String resource) throws IOException {
         InputStream inputStream;
-        if(resource.toLowerCase().indexOf("http://") != -1
-                || resource.toLowerCase().indexOf("https://") !=-1) {
+        if(resource.toLowerCase().contains("http://")
+                || resource.toLowerCase().contains("https://")) {
             inputStream = new URL(resource).openStream();
         } else {
             inputStream = new FileInputStream(new File(resource));
@@ -42,6 +41,13 @@ public class Parser {
         return inputStream;
     }
 
+    /**
+     * Считывает тектовый файл по-строчно, разбивает строку на слова,
+     * затем проверяет полученные слова, если слово удовлетворяет всем условиям
+     * добавляет его в коллекцию уникальных слов
+     * @param resource путь к текстовому файлу с текстом,
+     *                 если файла нет то работа программы прекращается
+     **/
     void parseResource(String resource) {
         if(resource != null) {
             try (

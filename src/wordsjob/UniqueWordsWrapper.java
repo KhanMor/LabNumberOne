@@ -22,10 +22,6 @@ public class UniqueWordsWrapper {
         uniqueWords = new HashSet<>();
     }
 
-    public Set<String> getUniqueWords() {
-        return uniqueWords;
-    }
-
     /**
      * Проверяет, есть ли слово в коллекции
      * @param word слово, которое необходимо проверить
