@@ -14,9 +14,6 @@ import java.util.Set;
 public class UniqueWordsWrapper {
     private final Set<String> uniqueWords;
     private static final Logger logger = Logger.getLogger(UniqueWordsWrapper.class);
-    static  {
-        DOMConfigurator.configure("src/resources/log4j.xml");
-    }
 
     public UniqueWordsWrapper(){
         uniqueWords = new HashSet<>();

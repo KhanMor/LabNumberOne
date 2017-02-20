@@ -10,9 +10,6 @@ import org.apache.log4j.xml.DOMConfigurator;
 public class WordValidator {
     private final UniqueWordsWrapper uniqueWords;
     private static final Logger logger = Logger.getLogger(WordValidator.class);
-    static  {
-        DOMConfigurator.configure("src/resources/log4j.xml");
-    }
 
     public WordValidator(UniqueWordsWrapper uniqueWords) {
         this.uniqueWords = uniqueWords;

@@ -14,10 +14,7 @@ import java.net.URL;
  */
 public class Parser {
     private final WordValidator wordValidator;
-    private static final Logger logger = Logger.getLogger(Main.class);
-    static  {
-        DOMConfigurator.configure("src/resources/log4j.xml");
-    }
+    private static final Logger logger = Logger.getLogger(Parser.class);
 
     public Parser(WordValidator wordValidator) {
         this.wordValidator = wordValidator;

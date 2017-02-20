@@ -28,3 +28,366 @@ TRACE   2017-02-15 09:24:11,927 [Thread-0] wordsjob.UniqueWordsWrapper  - found 
 ERROR   2017-02-15 09:24:11,927 [Thread-0] wordsjob.WordValidator  - Foreign word If found in http://joomla.ru/robots.txt
 TRACE   2017-02-15 09:24:11,927 [Thread-0] parser.ParserRunnable  - End of thread for http://joomla.ru/robots.txt
 TRACE   2017-02-15 09:24:11,927 [main] com.kharkhanov.Main  - Program done.
+TRACE   2017-02-15 09:33:31,704 [main] com.kharkhanov.Main  - Program started...
+TRACE   2017-02-15 09:33:31,824 [Thread-0] parser.ParserRunnable  - Thread started for Files/1.txt
+TRACE   2017-02-15 09:33:31,824 [Thread-3] parser.ParserRunnable  - Thread started for http://joomla.ru/robots.txt
+TRACE   2017-02-15 09:33:31,824 [Thread-2] parser.ParserRunnable  - Thread started for Files/3.txt
+TRACE   2017-02-15 09:33:31,824 [Thread-1] parser.ParserRunnable  - Thread started for Files/2.txt
+TRACE   2017-02-15 09:33:31,848 [Thread-2] wordsjob.UniqueWordsWrapper  - found word Гарантия in Files/3.txt
+TRACE   2017-02-15 09:33:31,849 [Thread-2] wordsjob.UniqueWordsWrapper  - found word результата in Files/3.txt
+TRACE   2017-02-15 09:33:31,849 [Thread-2] wordsjob.UniqueWordsWrapper  - found word Оптимизация in Files/3.txt
+TRACE   2017-02-15 09:33:31,850 [Thread-2] wordsjob.UniqueWordsWrapper  - found word контента in Files/3.txt
+TRACE   2017-02-15 09:33:31,850 [Thread-2] wordsjob.UniqueWordsWrapper  - found word позволяют in Files/3.txt
+TRACE   2017-02-15 09:33:31,850 [Thread-2] wordsjob.UniqueWordsWrapper  - found word не in Files/3.txt
+TRACE   2017-02-15 09:33:31,851 [Thread-2] wordsjob.UniqueWordsWrapper  - found word только in Files/3.txt
+TRACE   2017-02-15 09:33:31,851 [Thread-2] wordsjob.UniqueWordsWrapper  - found word значительно in Files/3.txt
+TRACE   2017-02-15 09:33:31,852 [Thread-2] wordsjob.UniqueWordsWrapper  - found word увеличить in Files/3.txt
+TRACE   2017-02-15 09:33:31,852 [Thread-2] wordsjob.UniqueWordsWrapper  - found word посещаемость in Files/3.txt
+TRACE   2017-02-15 09:33:31,852 [Thread-2] wordsjob.UniqueWordsWrapper  - found word ресурса, in Files/3.txt
+TRACE   2017-02-15 09:33:31,853 [Thread-2] wordsjob.UniqueWordsWrapper  - found word но in Files/3.txt
+TRACE   2017-02-15 09:33:31,853 [Thread-2] wordsjob.UniqueWordsWrapper  - found word и in Files/3.txt
+TRACE   2017-02-15 09:33:31,854 [Thread-2] wordsjob.UniqueWordsWrapper  - found word надолго in Files/3.txt
+TRACE   2017-02-15 09:33:31,854 [Thread-2] wordsjob.UniqueWordsWrapper  - found word заинтересовать in Files/3.txt
+TRACE   2017-02-15 09:33:31,854 [Thread-2] wordsjob.UniqueWordsWrapper  - found word сохранить in Files/3.txt
+TRACE   2017-02-15 09:33:31,854 [Thread-2] wordsjob.UniqueWordsWrapper  - found word свою in Files/3.txt
+TRACE   2017-02-15 09:33:31,855 [Thread-2] wordsjob.UniqueWordsWrapper  - found word аудиторию. in Files/3.txt
+TRACE   2017-02-15 09:33:31,855 [Thread-1] wordsjob.UniqueWordsWrapper  - found word Большой in Files/2.txt
+TRACE   2017-02-15 09:33:31,855 [Thread-1] wordsjob.UniqueWordsWrapper  - found word опыт in Files/2.txt
+TRACE   2017-02-15 09:33:31,856 [Thread-1] wordsjob.UniqueWordsWrapper  - found word работы in Files/2.txt
+TRACE   2017-02-15 09:33:31,856 [Thread-1] wordsjob.UniqueWordsWrapper  - found word Наша in Files/2.txt
+TRACE   2017-02-15 09:33:31,857 [Thread-1] wordsjob.UniqueWordsWrapper  - found word компания in Files/2.txt
+TRACE   2017-02-15 09:33:31,857 [Thread-1] wordsjob.UniqueWordsWrapper  - found word уже in Files/2.txt
+TRACE   2017-02-15 09:33:31,857 [Thread-1] wordsjob.UniqueWordsWrapper  - found word долгое in Files/2.txt
+TRACE   2017-02-15 09:33:31,857 [Thread-1] wordsjob.UniqueWordsWrapper  - found word время in Files/2.txt
+TRACE   2017-02-15 09:33:31,858 [Thread-1] wordsjob.UniqueWordsWrapper  - found word успешно in Files/2.txt
+TRACE   2017-02-15 09:33:31,858 [Thread-1] wordsjob.UniqueWordsWrapper  - found word работает in Files/2.txt
+TRACE   2017-02-15 09:33:31,858 [Thread-1] wordsjob.UniqueWordsWrapper  - found word в in Files/2.txt
+TRACE   2017-02-15 09:33:31,859 [Thread-1] wordsjob.UniqueWordsWrapper  - found word сегменте in Files/2.txt
+TRACE   2017-02-15 09:33:31,859 [Thread-1] wordsjob.UniqueWordsWrapper  - found word интернет-маркетинга. in Files/2.txt
+TRACE   2017-02-15 09:33:31,859 [Thread-2] wordsjob.UniqueWordsWrapper  - found word Мы in Files/3.txt
+TRACE   2017-02-15 09:33:31,860 [Thread-2] wordsjob.UniqueWordsWrapper  - found word даем in Files/3.txt
+TRACE   2017-02-15 09:33:31,860 [Thread-2] wordsjob.UniqueWordsWrapper  - found word жесткие in Files/3.txt
+TRACE   2017-02-15 09:33:31,860 [Thread-2] wordsjob.UniqueWordsWrapper  - found word гарантии in Files/3.txt
+TRACE   2017-02-15 09:33:31,861 [Thread-2] wordsjob.UniqueWordsWrapper  - found word по in Files/3.txt
+TRACE   2017-02-15 09:33:31,861 [Thread-2] wordsjob.UniqueWordsWrapper  - found word договору, in Files/3.txt
+ERROR   2017-02-15 09:33:31,861 [Thread-2] wordsjob.WordValidator  - Not unique word и found in Files/3.txt
+TRACE   2017-02-15 09:33:31,862 [Thread-2] parser.ParserRunnable  - End of thread for Files/3.txt
+TRACE   2017-02-15 09:33:31,863 [Thread-1] wordsjob.UniqueWordsWrapper  - found word Команда in Files/2.txt
+TRACE   2017-02-15 09:33:31,864 [Thread-1] parser.ParserRunnable  - End of thread for Files/2.txt
+ERROR   2017-02-15 09:33:31,868 [Thread-0] wordsjob.WordValidator  - Not unique word Гарантия found in Files/1.txt
+TRACE   2017-02-15 09:33:31,868 [Thread-0] parser.ParserRunnable  - End of thread for Files/1.txt
+TRACE   2017-02-15 09:33:32,308 [Thread-3] parser.ParserRunnable  - End of thread for http://joomla.ru/robots.txt
+TRACE   2017-02-15 09:33:32,308 [main] com.kharkhanov.Main  - Program done.
+TRACE   2017-02-15 09:34:09,217 [main] com.kharkhanov.Main  - Program started...
+TRACE   2017-02-15 09:34:09,360 [Thread-0] parser.ParserRunnable  - Thread started for Files/1.txt
+TRACE   2017-02-15 09:34:09,361 [Thread-2] parser.ParserRunnable  - Thread started for Files/3.txt
+TRACE   2017-02-15 09:34:09,360 [Thread-1] parser.ParserRunnable  - Thread started for Files/2.txt
+TRACE   2017-02-15 09:34:09,365 [Thread-3] parser.ParserRunnable  - Thread started for http://joomla.ru/robots.txt
+TRACE   2017-02-15 09:34:09,368 [Thread-2] wordsjob.UniqueWordsWrapper  - found word Гарантия in Files/3.txt
+TRACE   2017-02-15 09:34:09,368 [Thread-2] wordsjob.UniqueWordsWrapper  - found word результата in Files/3.txt
+ERROR   2017-02-15 09:34:09,369 [Thread-0] wordsjob.WordValidator  - Not unique word Гарантия found in Files/1.txt
+TRACE   2017-02-15 09:34:09,369 [Thread-0] parser.ParserRunnable  - End of thread for Files/1.txt
+TRACE   2017-02-15 09:34:09,370 [Thread-1] wordsjob.UniqueWordsWrapper  - found word Большой in Files/2.txt
+TRACE   2017-02-15 09:34:09,370 [Thread-1] parser.ParserRunnable  - End of thread for Files/2.txt
+TRACE   2017-02-15 09:34:09,371 [Thread-2] wordsjob.UniqueWordsWrapper  - found word Оптимизация in Files/3.txt
+TRACE   2017-02-15 09:34:09,371 [Thread-2] parser.ParserRunnable  - End of thread for Files/3.txt
+TRACE   2017-02-15 09:34:09,774 [Thread-3] parser.ParserRunnable  - End of thread for http://joomla.ru/robots.txt
+TRACE   2017-02-15 09:34:09,774 [main] com.kharkhanov.Main  - Program done.
+TRACE   2017-02-15 16:33:17,895 [main] com.kharkhanov.Main  - Program started...
+TRACE   2017-02-15 16:33:18,111 [Thread-0] parser.ParserRunnable  - Thread started for Files/1.txt
+TRACE   2017-02-15 16:33:18,111 [Thread-1] parser.ParserRunnable  - Thread started for Files/2.txt
+TRACE   2017-02-15 16:33:18,111 [Thread-2] parser.ParserRunnable  - Thread started for Files/3.txt
+TRACE   2017-02-15 16:33:18,111 [Thread-3] parser.ParserRunnable  - Thread started for http://joomla.ru/robots.txt
+TRACE   2017-02-15 16:33:18,227 [Thread-0] wordsjob.UniqueWordsWrapper  - found word Гарантия in Files/1.txt
+TRACE   2017-02-15 16:33:18,227 [Thread-0] wordsjob.UniqueWordsWrapper  - found word Эффектиные in Files/1.txt
+TRACE   2017-02-15 16:33:18,227 [Thread-0] wordsjob.UniqueWordsWrapper  - found word технологии- in Files/1.txt
+TRACE   2017-02-15 16:33:18,227 [Thread-0] wordsjob.UniqueWordsWrapper  - found word использоание in Files/1.txt
+TRACE   2017-02-15 16:33:18,227 [Thread-0] wordsjob.UniqueWordsWrapper  - found word только in Files/1.txt
+TRACE   2017-02-15 16:33:18,227 [Thread-0] wordsjob.UniqueWordsWrapper  - found word передоых in Files/1.txt
+TRACE   2017-02-15 16:33:18,227 [Thread-0] wordsjob.UniqueWordsWrapper  - found word технологий, in Files/1.txt
+TRACE   2017-02-15 16:33:18,227 [Thread-0] wordsjob.UniqueWordsWrapper  - found word позоляющих in Files/1.txt
+TRACE   2017-02-15 16:33:18,227 [Thread-0] wordsjob.UniqueWordsWrapper  - found word эффектино in Files/1.txt
+TRACE   2017-02-15 16:33:18,227 [Thread-0] wordsjob.UniqueWordsWrapper  - found word работать in Files/1.txt
+TRACE   2017-02-15 16:33:18,227 [Thread-0] wordsjob.UniqueWordsWrapper  - found word с in Files/1.txt
+TRACE   2017-02-15 16:33:18,227 [Thread-0] wordsjob.UniqueWordsWrapper  - found word алгоритмами in Files/1.txt
+TRACE   2017-02-15 16:33:18,227 [Thread-0] wordsjob.UniqueWordsWrapper  - found word разных in Files/1.txt
+TRACE   2017-02-15 16:33:18,227 [Thread-0] wordsjob.UniqueWordsWrapper  - found word поискоых in Files/1.txt
+TRACE   2017-02-15 16:33:18,227 [Thread-0] wordsjob.UniqueWordsWrapper  - found word систем in Files/1.txt
+TRACE   2017-02-15 16:33:18,227 [Thread-0] wordsjob.UniqueWordsWrapper  - found word при in Files/1.txt
+TRACE   2017-02-15 16:33:18,227 [Thread-0] wordsjob.UniqueWordsWrapper  - found word продижении in Files/1.txt
+TRACE   2017-02-15 16:33:18,227 [Thread-0] wordsjob.UniqueWordsWrapper  - found word сайто in Files/1.txt
+TRACE   2017-02-15 16:33:18,227 [Thread-0] wordsjob.UniqueWordsWrapper  - found word ТОП in Files/1.txt
+TRACE   2017-02-15 16:33:18,227 [Thread-0] wordsjob.UniqueWordsWrapper  - found word листы;- in Files/1.txt
+TRACE   2017-02-15 16:33:18,227 [Thread-0] wordsjob.UniqueWordsWrapper  - found word контроль in Files/1.txt
+TRACE   2017-02-15 16:33:18,227 [Thread-0] wordsjob.UniqueWordsWrapper  - found word качеста in Files/1.txt
+TRACE   2017-02-15 16:33:18,227 [Thread-0] wordsjob.UniqueWordsWrapper  - found word каждого in Files/1.txt
+TRACE   2017-02-15 16:33:18,227 [Thread-0] wordsjob.UniqueWordsWrapper  - found word из in Files/1.txt
+TRACE   2017-02-15 16:33:18,227 [Thread-0] wordsjob.UniqueWordsWrapper  - found word ыполняемых in Files/1.txt
+TRACE   2017-02-15 16:33:18,227 [Thread-0] wordsjob.UniqueWordsWrapper  - found word этапо, in Files/1.txt
+TRACE   2017-02-15 16:33:18,227 [Thread-0] wordsjob.UniqueWordsWrapper  - found word к in Files/1.txt
+TRACE   2017-02-15 16:33:18,227 [Thread-0] wordsjob.UniqueWordsWrapper  - found word которым in Files/1.txt
+TRACE   2017-02-15 16:33:18,227 [Thread-0] wordsjob.UniqueWordsWrapper  - found word относятся in Files/1.txt
+TRACE   2017-02-15 16:33:18,227 [Thread-0] wordsjob.UniqueWordsWrapper  - found word упраление in Files/1.txt
+TRACE   2017-02-15 16:33:18,227 [Thread-0] wordsjob.UniqueWordsWrapper  - found word ресурсом, in Files/1.txt
+TRACE   2017-02-15 16:33:18,227 [Thread-0] wordsjob.UniqueWordsWrapper  - found word его in Files/1.txt
+TRACE   2017-02-15 16:33:18,227 [Thread-0] wordsjob.UniqueWordsWrapper  - found word эффектиное in Files/1.txt
+TRACE   2017-02-15 16:33:18,227 [Thread-0] wordsjob.UniqueWordsWrapper  - found word продижение, in Files/1.txt
+TRACE   2017-02-15 16:33:18,227 [Thread-0] wordsjob.UniqueWordsWrapper  - found word проедение in Files/1.txt
+TRACE   2017-02-15 16:33:18,227 [Thread-0] wordsjob.UniqueWordsWrapper  - found word глубокого in Files/1.txt
+TRACE   2017-02-15 16:33:18,244 [Thread-0] wordsjob.UniqueWordsWrapper  - found word маркетинга in Files/1.txt
+TRACE   2017-02-15 16:33:18,244 [Thread-0] wordsjob.UniqueWordsWrapper  - found word для in Files/1.txt
+TRACE   2017-02-15 16:33:18,245 [Thread-0] wordsjob.UniqueWordsWrapper  - found word достижения in Files/1.txt
+TRACE   2017-02-15 16:33:18,245 [Thread-0] wordsjob.UniqueWordsWrapper  - found word максимального in Files/1.txt
+TRACE   2017-02-15 16:33:18,245 [Thread-0] wordsjob.UniqueWordsWrapper  - found word уроня in Files/1.txt
+TRACE   2017-02-15 16:33:18,246 [Thread-0] wordsjob.UniqueWordsWrapper  - found word продаж, in Files/1.txt
+TRACE   2017-02-15 16:33:18,247 [Thread-0] wordsjob.UniqueWordsWrapper  - found word анализ in Files/1.txt
+TRACE   2017-02-15 16:33:18,247 [Thread-0] wordsjob.UniqueWordsWrapper  - found word экономической in Files/1.txt
+TRACE   2017-02-15 16:33:18,247 [Thread-0] wordsjob.UniqueWordsWrapper  - found word эффектиности in Files/1.txt
+TRACE   2017-02-15 16:33:18,248 [Thread-0] wordsjob.UniqueWordsWrapper  - found word тех in Files/1.txt
+TRACE   2017-02-15 16:33:18,248 [Thread-0] wordsjob.UniqueWordsWrapper  - found word или in Files/1.txt
+TRACE   2017-02-15 16:33:18,248 [Thread-0] wordsjob.UniqueWordsWrapper  - found word иных in Files/1.txt
+TRACE   2017-02-15 16:33:18,249 [Thread-0] wordsjob.UniqueWordsWrapper  - found word проеденных in Files/1.txt
+TRACE   2017-02-15 16:33:18,249 [Thread-0] wordsjob.UniqueWordsWrapper  - found word мероприятий; in Files/1.txt
+TRACE   2017-02-15 16:33:18,249 [Thread-0] wordsjob.UniqueWordsWrapper  - found word - in Files/1.txt
+TRACE   2017-02-15 16:33:18,250 [Thread-0] wordsjob.UniqueWordsWrapper  - found word наличие in Files/1.txt
+TRACE   2017-02-15 16:33:18,250 [Thread-0] wordsjob.UniqueWordsWrapper  - found word персонала in Files/1.txt
+ERROR   2017-02-15 16:33:18,250 [Thread-0] wordsjob.WordValidator  - Not unique word с found in Files/1.txt
+TRACE   2017-02-15 16:33:18,250 [Thread-0] parser.ParserRunnable  - End of thread for Files/1.txt
+ERROR   2017-02-15 16:33:18,250 [Thread-2] wordsjob.WordValidator  - Not unique word Гарантия found in Files/3.txt
+TRACE   2017-02-15 16:33:18,250 [Thread-2] parser.ParserRunnable  - End of thread for Files/3.txt
+TRACE   2017-02-15 16:33:18,250 [Thread-1] wordsjob.UniqueWordsWrapper  - found word Большой in Files/2.txt
+TRACE   2017-02-15 16:33:18,250 [Thread-1] parser.ParserRunnable  - End of thread for Files/2.txt
+TRACE   2017-02-15 16:33:18,682 [Thread-3] parser.ParserRunnable  - End of thread for http://joomla.ru/robots.txt
+TRACE   2017-02-15 16:33:18,682 [main] com.kharkhanov.Main  - Program done.
+TRACE   2017-02-15 16:33:43,792 [main] com.kharkhanov.Main  - Program started...
+TRACE   2017-02-15 16:33:43,908 [Thread-0] parser.ParserRunnable  - Thread started for Files/1.txt
+TRACE   2017-02-15 16:33:43,908 [Thread-1] parser.ParserRunnable  - Thread started for Files/2.txt
+TRACE   2017-02-15 16:33:43,908 [Thread-2] parser.ParserRunnable  - Thread started for Files/3.txt
+TRACE   2017-02-15 16:33:43,908 [Thread-3] parser.ParserRunnable  - Thread started for http://joomla.ru/robots.txt
+ERROR   2017-02-15 16:33:43,908 [Thread-1] wordsjob.WordValidator  - Foreign word adfaf found in Files/2.txt
+TRACE   2017-02-15 16:33:43,908 [Thread-1] parser.ParserRunnable  - End of thread for Files/2.txt
+TRACE   2017-02-15 16:33:43,908 [Thread-0] wordsjob.UniqueWordsWrapper  - found word Гарантия in Files/1.txt
+TRACE   2017-02-15 16:33:43,908 [Thread-0] parser.ParserRunnable  - End of thread for Files/1.txt
+ERROR   2017-02-15 16:33:43,908 [Thread-2] wordsjob.WordValidator  - Not unique word Гарантия found in Files/3.txt
+TRACE   2017-02-15 16:33:43,908 [Thread-2] parser.ParserRunnable  - End of thread for Files/3.txt
+TRACE   2017-02-15 16:33:44,325 [Thread-3] parser.ParserRunnable  - End of thread for http://joomla.ru/robots.txt
+TRACE   2017-02-15 16:33:44,325 [main] com.kharkhanov.Main  - Program done.
+TRACE   2017-02-15 22:10:43,911 [main] com.kharkhanov.Main  - Program started...
+TRACE   2017-02-15 22:10:44,016 [Thread-0] parser.ParserRunnable  - Thread started for Files/1.txt
+TRACE   2017-02-15 22:10:44,017 [Thread-0] com.kharkhanov.Main  - Openning stream...
+TRACE   2017-02-15 22:10:44,018 [Thread-1] parser.ParserRunnable  - Thread started for Files/2.txt
+TRACE   2017-02-15 22:10:44,018 [Thread-1] com.kharkhanov.Main  - Openning stream...
+TRACE   2017-02-15 22:10:44,019 [Thread-2] parser.ParserRunnable  - Thread started for Files/3.txt
+TRACE   2017-02-15 22:10:44,019 [Thread-2] com.kharkhanov.Main  - Openning stream...
+TRACE   2017-02-15 22:10:44,020 [Thread-3] parser.ParserRunnable  - Thread started for http://joomla.ru/robots.txt
+TRACE   2017-02-15 22:10:44,021 [Thread-3] com.kharkhanov.Main  - Openning stream...
+TRACE   2017-02-15 22:10:44,099 [Thread-0] wordsjob.UniqueWordsWrapper  - found word Гарантия in Files/1.txt
+TRACE   2017-02-15 22:10:44,100 [Thread-0] wordsjob.UniqueWordsWrapper  - found word Эффектиные in Files/1.txt
+TRACE   2017-02-15 22:10:44,100 [Thread-0] wordsjob.UniqueWordsWrapper  - found word технологии- in Files/1.txt
+TRACE   2017-02-15 22:10:44,100 [Thread-0] wordsjob.UniqueWordsWrapper  - found word использоание in Files/1.txt
+TRACE   2017-02-15 22:10:44,101 [Thread-0] wordsjob.UniqueWordsWrapper  - found word только in Files/1.txt
+TRACE   2017-02-15 22:10:44,101 [Thread-0] wordsjob.UniqueWordsWrapper  - found word передоых in Files/1.txt
+TRACE   2017-02-15 22:10:44,101 [Thread-0] wordsjob.UniqueWordsWrapper  - found word технологий, in Files/1.txt
+TRACE   2017-02-15 22:10:44,102 [Thread-0] wordsjob.UniqueWordsWrapper  - found word позоляющих in Files/1.txt
+TRACE   2017-02-15 22:10:44,102 [Thread-0] wordsjob.UniqueWordsWrapper  - found word эффектино in Files/1.txt
+TRACE   2017-02-15 22:10:44,102 [Thread-0] wordsjob.UniqueWordsWrapper  - found word работать in Files/1.txt
+TRACE   2017-02-15 22:10:44,103 [Thread-0] wordsjob.UniqueWordsWrapper  - found word с in Files/1.txt
+TRACE   2017-02-15 22:10:44,103 [Thread-0] wordsjob.UniqueWordsWrapper  - found word алгоритмами in Files/1.txt
+TRACE   2017-02-15 22:10:44,103 [Thread-0] wordsjob.UniqueWordsWrapper  - found word разных in Files/1.txt
+TRACE   2017-02-15 22:10:44,103 [Thread-0] wordsjob.UniqueWordsWrapper  - found word поискоых in Files/1.txt
+TRACE   2017-02-15 22:10:44,104 [Thread-0] wordsjob.UniqueWordsWrapper  - found word систем in Files/1.txt
+TRACE   2017-02-15 22:10:44,104 [Thread-0] wordsjob.UniqueWordsWrapper  - found word при in Files/1.txt
+TRACE   2017-02-15 22:10:44,104 [Thread-0] wordsjob.UniqueWordsWrapper  - found word продижении in Files/1.txt
+TRACE   2017-02-15 22:10:44,104 [Thread-0] wordsjob.UniqueWordsWrapper  - found word сайто in Files/1.txt
+TRACE   2017-02-15 22:10:44,105 [Thread-0] wordsjob.UniqueWordsWrapper  - found word ТОП in Files/1.txt
+TRACE   2017-02-15 22:10:44,105 [Thread-0] wordsjob.UniqueWordsWrapper  - found word листы;- in Files/1.txt
+TRACE   2017-02-15 22:10:44,105 [Thread-0] wordsjob.UniqueWordsWrapper  - found word контроль in Files/1.txt
+TRACE   2017-02-15 22:10:44,105 [Thread-0] wordsjob.UniqueWordsWrapper  - found word качеста in Files/1.txt
+TRACE   2017-02-15 22:10:44,106 [Thread-0] wordsjob.UniqueWordsWrapper  - found word каждого in Files/1.txt
+TRACE   2017-02-15 22:10:44,106 [Thread-0] wordsjob.UniqueWordsWrapper  - found word из in Files/1.txt
+TRACE   2017-02-15 22:10:44,106 [Thread-0] wordsjob.UniqueWordsWrapper  - found word ыполняемых in Files/1.txt
+TRACE   2017-02-15 22:10:44,107 [Thread-0] wordsjob.UniqueWordsWrapper  - found word этапо, in Files/1.txt
+TRACE   2017-02-15 22:10:44,107 [Thread-0] wordsjob.UniqueWordsWrapper  - found word к in Files/1.txt
+TRACE   2017-02-15 22:10:44,108 [Thread-0] wordsjob.UniqueWordsWrapper  - found word которым in Files/1.txt
+TRACE   2017-02-15 22:10:44,108 [Thread-0] wordsjob.UniqueWordsWrapper  - found word относятся in Files/1.txt
+TRACE   2017-02-15 22:10:44,108 [Thread-0] wordsjob.UniqueWordsWrapper  - found word упраление in Files/1.txt
+TRACE   2017-02-15 22:10:44,109 [Thread-0] wordsjob.UniqueWordsWrapper  - found word ресурсом, in Files/1.txt
+TRACE   2017-02-15 22:10:44,109 [Thread-0] wordsjob.UniqueWordsWrapper  - found word его in Files/1.txt
+TRACE   2017-02-15 22:10:44,109 [Thread-0] wordsjob.UniqueWordsWrapper  - found word эффектиное in Files/1.txt
+TRACE   2017-02-15 22:10:44,109 [Thread-0] wordsjob.UniqueWordsWrapper  - found word продижение, in Files/1.txt
+TRACE   2017-02-15 22:10:44,110 [Thread-0] wordsjob.UniqueWordsWrapper  - found word проедение in Files/1.txt
+TRACE   2017-02-15 22:10:44,110 [Thread-0] wordsjob.UniqueWordsWrapper  - found word глубокого in Files/1.txt
+TRACE   2017-02-15 22:10:44,110 [Thread-0] wordsjob.UniqueWordsWrapper  - found word маркетинга in Files/1.txt
+TRACE   2017-02-15 22:10:44,110 [Thread-0] wordsjob.UniqueWordsWrapper  - found word для in Files/1.txt
+TRACE   2017-02-15 22:10:44,111 [Thread-0] wordsjob.UniqueWordsWrapper  - found word достижения in Files/1.txt
+TRACE   2017-02-15 22:10:44,111 [Thread-0] wordsjob.UniqueWordsWrapper  - found word максимального in Files/1.txt
+TRACE   2017-02-15 22:10:44,111 [Thread-0] wordsjob.UniqueWordsWrapper  - found word уроня in Files/1.txt
+TRACE   2017-02-15 22:10:44,112 [Thread-0] wordsjob.UniqueWordsWrapper  - found word продаж, in Files/1.txt
+TRACE   2017-02-15 22:10:44,112 [Thread-0] wordsjob.UniqueWordsWrapper  - found word анализ in Files/1.txt
+TRACE   2017-02-15 22:10:44,112 [Thread-0] wordsjob.UniqueWordsWrapper  - found word экономической in Files/1.txt
+TRACE   2017-02-15 22:10:44,112 [Thread-0] wordsjob.UniqueWordsWrapper  - found word эффектиности in Files/1.txt
+TRACE   2017-02-15 22:10:44,113 [Thread-0] wordsjob.UniqueWordsWrapper  - found word тех in Files/1.txt
+TRACE   2017-02-15 22:10:44,113 [Thread-0] wordsjob.UniqueWordsWrapper  - found word или in Files/1.txt
+TRACE   2017-02-15 22:10:44,113 [Thread-0] wordsjob.UniqueWordsWrapper  - found word иных in Files/1.txt
+TRACE   2017-02-15 22:10:44,113 [Thread-0] wordsjob.UniqueWordsWrapper  - found word проеденных in Files/1.txt
+TRACE   2017-02-15 22:10:44,114 [Thread-0] wordsjob.UniqueWordsWrapper  - found word мероприятий; in Files/1.txt
+TRACE   2017-02-15 22:10:44,114 [Thread-0] wordsjob.UniqueWordsWrapper  - found word - in Files/1.txt
+TRACE   2017-02-15 22:10:44,114 [Thread-0] wordsjob.UniqueWordsWrapper  - found word наличие in Files/1.txt
+TRACE   2017-02-15 22:10:44,114 [Thread-0] wordsjob.UniqueWordsWrapper  - found word персонала in Files/1.txt
+ERROR   2017-02-15 22:10:44,115 [Thread-0] wordsjob.WordValidator  - Not unique word с found in Files/1.txt
+TRACE   2017-02-15 22:10:44,115 [Thread-0] parser.ParserRunnable  - End of thread for Files/1.txt
+ERROR   2017-02-15 22:10:44,115 [Thread-2] wordsjob.WordValidator  - Not unique word Гарантия found in Files/3.txt
+TRACE   2017-02-15 22:10:44,116 [Thread-2] parser.ParserRunnable  - End of thread for Files/3.txt
+ERROR   2017-02-15 22:10:44,116 [Thread-1] wordsjob.WordValidator  - Foreign word adfaf found in Files/2.txt
+TRACE   2017-02-15 22:10:44,116 [Thread-1] parser.ParserRunnable  - End of thread for Files/2.txt
+TRACE   2017-02-15 22:10:44,658 [Thread-3] parser.ParserRunnable  - End of thread for http://joomla.ru/robots.txt
+TRACE   2017-02-15 22:36:06,876 [main] com.kharkhanov.Main  - Program started...
+TRACE   2017-02-15 22:36:07,125 [Thread-0] parser.ParserRunnable  - Thread started for Files/1.txt
+TRACE   2017-02-15 22:36:07,127 [Thread-3] parser.ParserRunnable  - Thread started for http://joomla.ru/robots.txt
+TRACE   2017-02-15 22:36:07,126 [Thread-2] parser.ParserRunnable  - Thread started for Files/3.txt
+TRACE   2017-02-15 22:36:07,126 [Thread-1] parser.ParserRunnable  - Thread started for Files/2.txt
+TRACE   2017-02-15 22:36:07,128 [Thread-1] parser.Parser  - Openning stream...
+TRACE   2017-02-15 22:36:07,127 [Thread-2] parser.Parser  - Openning stream...
+TRACE   2017-02-15 22:36:07,127 [Thread-3] parser.Parser  - Openning stream...
+TRACE   2017-02-15 22:36:07,127 [Thread-0] parser.Parser  - Openning stream...
+ERROR   2017-02-15 22:36:07,233 [Thread-1] wordsjob.WordValidator  - Foreign word adfaf found in Files/2.txt
+TRACE   2017-02-15 22:36:07,234 [Thread-1] parser.ParserRunnable  - End of thread for Files/2.txt
+TRACE   2017-02-15 22:36:07,259 [Thread-0] wordsjob.UniqueWordsWrapper  - found word Гарантия in Files/1.txt
+TRACE   2017-02-15 22:36:07,260 [Thread-0] parser.ParserRunnable  - End of thread for Files/1.txt
+ERROR   2017-02-15 22:36:07,268 [Thread-2] wordsjob.WordValidator  - Not unique word Гарантия found in Files/3.txt
+TRACE   2017-02-15 22:36:07,269 [Thread-2] parser.ParserRunnable  - End of thread for Files/3.txt
+TRACE   2017-02-15 22:36:08,123 [Thread-3] parser.ParserRunnable  - End of thread for http://joomla.ru/robots.txt
+TRACE   2017-02-15 22:39:23,631 [main] com.kharkhanov.Main  - Program started...
+TRACE   2017-02-15 22:39:23,656 [Thread-0] parser.ParserRunnable  - Thread started for Files/1.txt
+TRACE   2017-02-15 22:39:23,657 [Thread-0] parser.Parser  - Openning stream...
+TRACE   2017-02-15 22:39:23,657 [Thread-1] parser.ParserRunnable  - Thread started for Files/2.txt
+TRACE   2017-02-15 22:39:23,660 [Thread-1] parser.Parser  - Openning stream...
+TRACE   2017-02-15 22:39:23,665 [Thread-2] parser.ParserRunnable  - Thread started for Files/3.txt
+TRACE   2017-02-15 22:39:23,665 [Thread-2] parser.Parser  - Openning stream...
+TRACE   2017-02-15 22:39:23,668 [Thread-3] parser.ParserRunnable  - Thread started for http://joomla.ru/robots.txt
+TRACE   2017-02-15 22:39:23,669 [Thread-3] parser.Parser  - Openning stream...
+TRACE   2017-02-15 22:39:23,673 [Thread-0] wordsjob.UniqueWordsWrapper  - found word Гарантия in Files/1.txt
+TRACE   2017-02-15 22:39:23,674 [Thread-0] wordsjob.UniqueWordsWrapper  - found word Эффектиные in Files/1.txt
+TRACE   2017-02-15 22:39:23,674 [Thread-0] wordsjob.UniqueWordsWrapper  - found word технологии- in Files/1.txt
+TRACE   2017-02-15 22:39:23,675 [Thread-0] wordsjob.UniqueWordsWrapper  - found word использоание in Files/1.txt
+TRACE   2017-02-15 22:39:23,678 [Thread-0] wordsjob.UniqueWordsWrapper  - found word только in Files/1.txt
+TRACE   2017-02-15 22:39:23,678 [Thread-0] wordsjob.UniqueWordsWrapper  - found word передоых in Files/1.txt
+TRACE   2017-02-15 22:39:23,679 [Thread-0] wordsjob.UniqueWordsWrapper  - found word технологий, in Files/1.txt
+TRACE   2017-02-15 22:39:23,679 [Thread-0] wordsjob.UniqueWordsWrapper  - found word позоляющих in Files/1.txt
+TRACE   2017-02-15 22:39:23,680 [Thread-0] wordsjob.UniqueWordsWrapper  - found word эффектино in Files/1.txt
+TRACE   2017-02-15 22:39:23,680 [Thread-0] wordsjob.UniqueWordsWrapper  - found word работать in Files/1.txt
+TRACE   2017-02-15 22:39:23,680 [Thread-0] wordsjob.UniqueWordsWrapper  - found word с in Files/1.txt
+TRACE   2017-02-15 22:39:23,681 [Thread-0] wordsjob.UniqueWordsWrapper  - found word алгоритмами in Files/1.txt
+TRACE   2017-02-15 22:39:23,681 [Thread-0] wordsjob.UniqueWordsWrapper  - found word разных in Files/1.txt
+TRACE   2017-02-15 22:39:23,681 [Thread-0] wordsjob.UniqueWordsWrapper  - found word поискоых in Files/1.txt
+TRACE   2017-02-15 22:39:23,682 [Thread-0] wordsjob.UniqueWordsWrapper  - found word систем in Files/1.txt
+TRACE   2017-02-15 22:39:23,682 [Thread-0] wordsjob.UniqueWordsWrapper  - found word при in Files/1.txt
+TRACE   2017-02-15 22:39:23,682 [Thread-0] wordsjob.UniqueWordsWrapper  - found word продижении in Files/1.txt
+TRACE   2017-02-15 22:39:23,683 [Thread-0] wordsjob.UniqueWordsWrapper  - found word сайто in Files/1.txt
+TRACE   2017-02-15 22:39:23,683 [Thread-0] wordsjob.UniqueWordsWrapper  - found word ТОП in Files/1.txt
+TRACE   2017-02-15 22:39:23,684 [Thread-0] wordsjob.UniqueWordsWrapper  - found word листы;- in Files/1.txt
+TRACE   2017-02-15 22:39:23,684 [Thread-0] wordsjob.UniqueWordsWrapper  - found word контроль in Files/1.txt
+TRACE   2017-02-15 22:39:23,685 [Thread-0] wordsjob.UniqueWordsWrapper  - found word качеста in Files/1.txt
+TRACE   2017-02-15 22:39:23,685 [Thread-0] wordsjob.UniqueWordsWrapper  - found word каждого in Files/1.txt
+TRACE   2017-02-15 22:39:23,685 [Thread-0] wordsjob.UniqueWordsWrapper  - found word из in Files/1.txt
+TRACE   2017-02-15 22:39:23,686 [Thread-0] wordsjob.UniqueWordsWrapper  - found word ыполняемых in Files/1.txt
+TRACE   2017-02-15 22:39:23,686 [Thread-0] wordsjob.UniqueWordsWrapper  - found word этапо, in Files/1.txt
+TRACE   2017-02-15 22:39:23,686 [Thread-0] wordsjob.UniqueWordsWrapper  - found word к in Files/1.txt
+TRACE   2017-02-15 22:39:23,687 [Thread-0] wordsjob.UniqueWordsWrapper  - found word которым in Files/1.txt
+TRACE   2017-02-15 22:39:23,687 [Thread-0] wordsjob.UniqueWordsWrapper  - found word относятся in Files/1.txt
+TRACE   2017-02-15 22:39:23,687 [Thread-0] wordsjob.UniqueWordsWrapper  - found word упраление in Files/1.txt
+TRACE   2017-02-15 22:39:23,688 [Thread-0] wordsjob.UniqueWordsWrapper  - found word ресурсом, in Files/1.txt
+TRACE   2017-02-15 22:39:23,688 [Thread-0] wordsjob.UniqueWordsWrapper  - found word его in Files/1.txt
+TRACE   2017-02-15 22:39:23,688 [Thread-0] wordsjob.UniqueWordsWrapper  - found word эффектиное in Files/1.txt
+TRACE   2017-02-15 22:39:23,689 [Thread-0] wordsjob.UniqueWordsWrapper  - found word продижение, in Files/1.txt
+TRACE   2017-02-15 22:39:23,689 [Thread-0] wordsjob.UniqueWordsWrapper  - found word проедение in Files/1.txt
+TRACE   2017-02-15 22:39:23,689 [Thread-0] wordsjob.UniqueWordsWrapper  - found word глубокого in Files/1.txt
+TRACE   2017-02-15 22:39:23,690 [Thread-0] wordsjob.UniqueWordsWrapper  - found word маркетинга in Files/1.txt
+TRACE   2017-02-15 22:39:23,690 [Thread-0] wordsjob.UniqueWordsWrapper  - found word для in Files/1.txt
+TRACE   2017-02-15 22:39:23,690 [Thread-0] wordsjob.UniqueWordsWrapper  - found word достижения in Files/1.txt
+TRACE   2017-02-15 22:39:23,691 [Thread-0] wordsjob.UniqueWordsWrapper  - found word максимального in Files/1.txt
+TRACE   2017-02-15 22:39:23,691 [Thread-0] wordsjob.UniqueWordsWrapper  - found word уроня in Files/1.txt
+TRACE   2017-02-15 22:39:23,691 [Thread-0] wordsjob.UniqueWordsWrapper  - found word продаж, in Files/1.txt
+TRACE   2017-02-15 22:39:23,691 [Thread-0] wordsjob.UniqueWordsWrapper  - found word анализ in Files/1.txt
+TRACE   2017-02-15 22:39:23,692 [Thread-0] wordsjob.UniqueWordsWrapper  - found word экономической in Files/1.txt
+TRACE   2017-02-15 22:39:23,692 [Thread-0] wordsjob.UniqueWordsWrapper  - found word эффектиности in Files/1.txt
+TRACE   2017-02-15 22:39:23,692 [Thread-0] wordsjob.UniqueWordsWrapper  - found word тех in Files/1.txt
+TRACE   2017-02-15 22:39:23,692 [Thread-0] wordsjob.UniqueWordsWrapper  - found word или in Files/1.txt
+TRACE   2017-02-15 22:39:23,693 [Thread-0] wordsjob.UniqueWordsWrapper  - found word иных in Files/1.txt
+TRACE   2017-02-15 22:39:23,693 [Thread-0] wordsjob.UniqueWordsWrapper  - found word проеденных in Files/1.txt
+TRACE   2017-02-15 22:39:23,694 [Thread-0] wordsjob.UniqueWordsWrapper  - found word мероприятий; in Files/1.txt
+TRACE   2017-02-15 22:39:23,694 [Thread-0] wordsjob.UniqueWordsWrapper  - found word - in Files/1.txt
+TRACE   2017-02-15 22:39:23,694 [Thread-0] wordsjob.UniqueWordsWrapper  - found word наличие in Files/1.txt
+TRACE   2017-02-15 22:39:23,695 [Thread-0] wordsjob.UniqueWordsWrapper  - found word персонала in Files/1.txt
+ERROR   2017-02-15 22:39:23,695 [Thread-0] wordsjob.WordValidator  - Not unique word с found in Files/1.txt
+ERROR   2017-02-15 22:39:23,695 [Thread-2] wordsjob.WordValidator  - Not unique word Гарантия found in Files/3.txt
+TRACE   2017-02-15 22:39:23,695 [Thread-0] parser.ParserRunnable  - End of thread for Files/1.txt
+ERROR   2017-02-15 22:39:23,696 [Thread-1] wordsjob.WordValidator  - Foreign word adfaf found in Files/2.txt
+TRACE   2017-02-15 22:39:23,696 [Thread-1] parser.ParserRunnable  - End of thread for Files/2.txt
+TRACE   2017-02-15 22:39:23,696 [Thread-2] parser.ParserRunnable  - End of thread for Files/3.txt
+TRACE   2017-02-15 22:39:24,288 [Thread-3] parser.ParserRunnable  - End of thread for http://joomla.ru/robots.txt
+TRACE   2017-02-15 23:06:34,117 [main] com.kharkhanov.Main  - Program started...
+TRACE   2017-02-15 23:06:34,177 [pool-1-thread-1] parser.ParserRunnable  - Thread started for Files/1.txt
+TRACE   2017-02-15 23:06:34,181 [pool-1-thread-2] parser.ParserRunnable  - Thread started for Files/2.txt
+TRACE   2017-02-15 23:06:34,183 [pool-1-thread-3] parser.ParserRunnable  - Thread started for Files/3.txt
+TRACE   2017-02-15 23:06:34,185 [pool-1-thread-4] parser.ParserRunnable  - Thread started for http://joomla.ru/robots.txt
+TRACE   2017-02-15 23:06:34,266 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word Гарантия in Files/3.txt
+TRACE   2017-02-15 23:06:34,267 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word результата in Files/3.txt
+TRACE   2017-02-15 23:06:34,268 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word Оптимизация in Files/3.txt
+TRACE   2017-02-15 23:06:34,268 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word контента in Files/3.txt
+TRACE   2017-02-15 23:06:34,269 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word позволяют in Files/3.txt
+TRACE   2017-02-15 23:06:34,270 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word не in Files/3.txt
+TRACE   2017-02-15 23:06:34,272 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word только in Files/3.txt
+TRACE   2017-02-15 23:06:34,273 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word значительно in Files/3.txt
+TRACE   2017-02-15 23:06:34,274 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word увеличить in Files/3.txt
+TRACE   2017-02-15 23:06:34,274 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word посещаемость in Files/3.txt
+TRACE   2017-02-15 23:06:34,275 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word ресурса, in Files/3.txt
+TRACE   2017-02-15 23:06:34,276 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word но in Files/3.txt
+TRACE   2017-02-15 23:06:34,276 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word и in Files/3.txt
+TRACE   2017-02-15 23:06:34,276 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word надолго in Files/3.txt
+TRACE   2017-02-15 23:06:34,277 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word заинтересовать in Files/3.txt
+TRACE   2017-02-15 23:06:34,277 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word сохранить in Files/3.txt
+TRACE   2017-02-15 23:06:34,277 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word свою in Files/3.txt
+TRACE   2017-02-15 23:06:34,278 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word аудиторию. in Files/3.txt
+TRACE   2017-02-15 23:06:34,279 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word Мы in Files/3.txt
+TRACE   2017-02-15 23:06:34,279 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word даем in Files/3.txt
+TRACE   2017-02-15 23:06:34,280 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word жесткие in Files/3.txt
+TRACE   2017-02-15 23:06:34,280 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word гарантии in Files/3.txt
+TRACE   2017-02-15 23:06:34,281 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word по in Files/3.txt
+TRACE   2017-02-15 23:06:34,281 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word договору, in Files/3.txt
+ERROR   2017-02-15 23:06:34,281 [pool-1-thread-3] wordsjob.WordValidator  - Not unique word и found in Files/3.txt
+ERROR   2017-02-15 23:06:34,282 [pool-1-thread-1] wordsjob.WordValidator  - Not unique word Гарантия found in Files/1.txt
+TRACE   2017-02-15 23:06:34,282 [pool-1-thread-1] parser.ParserRunnable  - End of thread for Files/1.txt
+TRACE   2017-02-15 23:06:34,283 [pool-1-thread-3] parser.ParserRunnable  - End of thread for Files/3.txt
+ERROR   2017-02-15 23:06:34,286 [pool-1-thread-2] wordsjob.WordValidator  - Foreign word adfaf found in Files/2.txt
+TRACE   2017-02-15 23:06:34,286 [pool-1-thread-2] parser.ParserRunnable  - End of thread for Files/2.txt
+TRACE   2017-02-15 23:06:35,044 [pool-1-thread-4] parser.ParserRunnable  - End of thread for http://joomla.ru/robots.txt
+TRACE   2017-02-15 23:06:52,198 [main] com.kharkhanov.Main  - Program started...
+TRACE   2017-02-15 23:06:52,234 [pool-1-thread-1] parser.ParserRunnable  - Thread started for Files/1.txt
+TRACE   2017-02-15 23:06:52,234 [pool-1-thread-3] parser.ParserRunnable  - Thread started for Files/3.txt
+TRACE   2017-02-15 23:06:52,234 [pool-1-thread-2] parser.ParserRunnable  - Thread started for Files/2.txt
+TRACE   2017-02-15 23:06:52,237 [pool-1-thread-4] parser.ParserRunnable  - Thread started for http://joomla.ru/robots.txt
+TRACE   2017-02-15 23:06:52,276 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word Гарантия in Files/3.txt
+TRACE   2017-02-15 23:06:52,276 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word результата in Files/3.txt
+TRACE   2017-02-15 23:06:52,278 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word Оптимизация in Files/3.txt
+TRACE   2017-02-15 23:06:52,279 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word контента in Files/3.txt
+TRACE   2017-02-15 23:06:52,280 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word позволяют in Files/3.txt
+TRACE   2017-02-15 23:06:52,280 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word не in Files/3.txt
+TRACE   2017-02-15 23:06:52,285 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word только in Files/3.txt
+TRACE   2017-02-15 23:06:52,286 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word значительно in Files/3.txt
+TRACE   2017-02-15 23:06:52,287 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word увеличить in Files/3.txt
+TRACE   2017-02-15 23:06:52,287 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word посещаемость in Files/3.txt
+TRACE   2017-02-15 23:06:52,288 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word ресурса, in Files/3.txt
+TRACE   2017-02-15 23:06:52,289 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word но in Files/3.txt
+TRACE   2017-02-15 23:06:52,289 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word и in Files/3.txt
+TRACE   2017-02-15 23:06:52,289 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word надолго in Files/3.txt
+TRACE   2017-02-15 23:06:52,290 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word заинтересовать in Files/3.txt
+TRACE   2017-02-15 23:06:52,290 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word сохранить in Files/3.txt
+TRACE   2017-02-15 23:06:52,290 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word свою in Files/3.txt
+ERROR   2017-02-15 23:06:52,291 [pool-1-thread-1] wordsjob.WordValidator  - Not unique word Гарантия found in Files/1.txt
+ERROR   2017-02-15 23:06:52,292 [pool-1-thread-2] wordsjob.WordValidator  - Foreign word adfaf found in Files/2.txt
+TRACE   2017-02-15 23:06:52,292 [pool-1-thread-1] parser.ParserRunnable  - End of thread for Files/1.txt
+TRACE   2017-02-15 23:06:52,292 [pool-1-thread-3] wordsjob.UniqueWordsWrapper  - found word аудиторию. in Files/3.txt
+TRACE   2017-02-15 23:06:52,292 [pool-1-thread-3] parser.ParserRunnable  - End of thread for Files/3.txt
+TRACE   2017-02-15 23:06:52,292 [pool-1-thread-2] parser.ParserRunnable  - End of thread for Files/2.txt
+TRACE   2017-02-15 23:06:52,777 [pool-1-thread-4] parser.ParserRunnable  - End of thread for http://joomla.ru/robots.txt

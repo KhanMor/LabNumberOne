@@ -11,9 +11,6 @@ public class ParserRunnable implements Runnable{
     private final String resource;
     private final Parser parser;
     private static final Logger logger = Logger.getLogger(ParserRunnable.class);
-    static  {
-        DOMConfigurator.configure("src/resources/log4j.xml");
-    }
 
     public ParserRunnable(String resource, Parser parser) {
         this.resource = resource;

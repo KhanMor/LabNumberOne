@@ -7,9 +7,13 @@ import parser.ParserRunnable;
 import wordsjob.UniqueWordsWrapper;
 import wordsjob.WordValidator;
 
-import java.util.*;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
-public class Main {
+/**
+ * Created by Mordr on 15.02.2017.
+ */
+public class MainAdditional {
     public static volatile boolean stop = false;
     private static final Logger logger = Logger.getLogger(Main.class);
     static  {
@@ -18,13 +22,14 @@ public class Main {
 
     public static void main(String[] args) {
         logger.trace("Program started...");
+
         UniqueWordsWrapper uniqueWords = new UniqueWordsWrapper();
         WordValidator wordValidator = new WordValidator(uniqueWords);
-        Parser parser = new Parser(wordValidator);
+        ExecutorService executorService = Executors.newFixedThreadPool(args.length);
 
+        Parser parser = new Parser(wordValidator);
         for (String resource:args) {
-            Thread thread = new Thread(new ParserRunnable(resource, parser));
-            thread.start();
+            executorService.submit(new ParserRunnable(resource, parser));
         }
     }
 }
